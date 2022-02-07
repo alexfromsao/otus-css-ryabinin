@@ -1,0 +1,58 @@
+:root {
+    font-size: 17px;
+}
+
+* {
+    font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+    padding-bottom: 0;
+
+}
+
+body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+header {
+    padding-top: 2rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+nav {
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.underline {
+    text-decoration: underline;
+}
