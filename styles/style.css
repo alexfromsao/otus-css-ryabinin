@@ -10,22 +10,33 @@
     -webkit-font-smoothing: antialiased;
   }
 
+ body {
+     color: white;
+ } 
+
 .hero-section {
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.hero-image {
+.hero-image div {
+    max-width: 1200px;
     width: 80vw;
     height: 60vh;
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80) no-repeat
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     ;
+}
+
+.hero-image h1 {
+    color: black;
 }
 
 
