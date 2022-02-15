@@ -4,8 +4,8 @@
 
 * {
     font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-    padding-bottom: 0;
-
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -13,46 +13,53 @@ body {
     margin-right: 3rem;
 }
 
-header {
-    padding-top: 2rem;
+article.about {
+    padding-bottom: 2rem;
 }
 
-header p {
-    font-size: 1.1rem;
-    padding-bottom: 1rem;
-}
-
-nav {
-    padding-bottom: 1rem;
-}
-
-h1 {
-    font-size: 1.25rem;
+h2.autor {
+    font-size: 1.5rem;
     font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+h2.about p {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+h1 h2 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+ul.nav {
+    padding-bottom: 1rem;
 }
 
 h2 {
-    font-size: 1.1rem;
-    font-weight: 700;
+    padding-bottom: 1rem;
 }
+
+article {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+
+
+
 
 p {
     font-size: 1rem;
     text-align: justify;
-}
-
-section {
-    padding-bottom: 1rem;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.underline {
-    text-decoration: underline;
 }
