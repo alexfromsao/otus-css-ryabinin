@@ -21,7 +21,7 @@ main {
     width: 100%;
 }
  
-section {
+section.hero-section {
     display: block;
     width: 100%;
     max-width: 100%;
@@ -32,33 +32,25 @@ section {
 div.hero-image {
     background-color: beige;
     background-image: url('https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     height: 80%;
     width: 80%;
     position: absolute;
     top: 10%;
-    left: 10%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-
-  
+    left: 10%;  
 }
 
-div.hero-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 60%;
+div.hero-text {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 60%;
+    width: min-content;
+    padding: 6rem;
+    text-align: center;
     background-color: white;
 }
 
@@ -68,17 +60,12 @@ div.hero-text {
     max-width: 100%;
     font-size: 5.2rem;
     white-space: nowrap;
+    color: black;
 }
 
-
-  
-/* div.menu {
-    display: block; 
-    
-    text-align: center;
-    height: 2rem;
-    border: 2px solid red;
-    margin-top: 54px;
+.hero-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: black;
 }
-*/
-  
