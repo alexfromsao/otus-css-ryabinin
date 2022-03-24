@@ -83,3 +83,58 @@ div.hero-text {
     font-size: 1.1rem;
     color: black;
 }
+
+/* section bio */
+
+#bio {
+    /* max-height: 90vh; */
+}
+
+
+.bio-img, .bio-about {
+    display: inline-block;
+    max-width: 50%;
+    width: 49.99%;
+    float: left;
+
+}
+
+.bio-img {
+    max-height: 90vh;
+    position: relative;
+    max-width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bio-about {  
+    margin-left: 5rem;
+    padding-top: 8rem;
+
+}
+
+.bio-about h3 {
+    font-family: butler;
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section des */
+
+#des {
+    margin-top: 10rem;
+}
