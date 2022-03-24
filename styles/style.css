@@ -18,20 +18,24 @@ body {
 } 
 
 main {
-    width: 100%;
+    width: 90rem;
+    margin: 0 auto;
+}
+
+section {
+    height: 100vh;
+    position: relative;
 }
  
-section.hero-section {
-    display: block;
+#hero-section {
     width: 100%;
-    max-width: 100%;
     min-height: 36rem;
-    height: 100vh;
+    
 }
 
 div.hero-image {
     background-color: beige;
-    background-image: url('https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +43,16 @@ div.hero-image {
     width: 80%;
     position: absolute;
     top: 10%;
-    left: 10%;  
+    left: 10%;   */
+}
+
+img.hero-image {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    object-fit: cover;  
 }
 
 div.hero-text {  
@@ -61,6 +74,7 @@ div.hero-text {
     font-size: 5.2rem;
     white-space: nowrap;
     color: black;
+    margin-top: 3.3%;
 }
 
 .hero-text h2 {
