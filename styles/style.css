@@ -108,17 +108,49 @@ div.hero-text {
 }
 
 .bio-about {  
-    margin-left: 5rem;
-    padding-top: 8rem;
+    margin-left: 6rem;
+    padding-top: 10rem;
 
 }
 
 .bio-about h3 {
-    font-family: butler;
+    font-family: Butler, sans-serif;
     font-size: 6rem;
     font-weight: 300;
 }
 
+.bio-about p {
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    font-weight: 450;
+    color: #636363;
+}
+
+.bio-about blockquote {
+    font-family: Butler, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    max-width: 415px;
+}
+
+.box {
+    width: 14px;
+    height: 4px;
+    background-color: black;
+    margin-top: 4rem;
+}
+
+h2.bio {
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
 
 
 
